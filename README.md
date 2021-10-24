@@ -1,7 +1,11 @@
 # Lec-9-Codes
 
+LOOP
 
-WHILE LOOP
+
+WHILE LOOPS
+
+while loops Example
 
     #include <iostream>
     using namespace std;
@@ -56,7 +60,7 @@ Alternative to previous Break Solution
     }
                          
    
-Example                         
+While Loop error check Example                         
         
     #include <iostream>
     using namespace std;
@@ -134,5 +138,14 @@ Login While Alternative
     }
 
   
+EXERCISE BREAK
 
+Exercise: While Loop
+
+Reverse 9 times table
+
+The Pointless Box
+
+Exercise: Do While Loop
                          
+Input improvement
