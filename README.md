@@ -25,8 +25,8 @@ Break Example
     using namespace std;
     int main()
     {
-      cout << "Enter a whole number: " << 
-        endl; int userNum;
+      cout << "Enter a whole number: " << endl; 
+      int userNum;
       cin >> userNum;
 
       int count = 1;
@@ -144,8 +144,133 @@ Exercise: While Loop
 
 Reverse 9 times table
 
+        #include <iostream>  
+        using namespace std;
+
+        int main()
+        {
+            int num = 108;
+
+            while (num >= 9)  
+            {
+                cout << num << endl;
+                num = num - 9;
+            }
+
+            cin.get(); 
+            return 0;
+        }
+
+
 The Pointless Box
+
+
+    
 
 Exercise: Do While Loop
                          
 Input improvement
+
+        #include <iostream>
+        using namespace std;
+        int main() {
+            char input;
+            do {
+                cout << "Would you like to Quit (Y/N)?" << endl;
+                cin >> input;
+            } while 
+                ((input != 'Y') && (input != 'y'));
+            return 0;
+        }
+
+
+EXERCISE BREAK 
+
+Brute-Force Attack
+
+        #include <iostream>
+        using namespace std;
+        int main()
+        {
+            string password = "kenobi";
+            string userInput;
+
+            while (userInput != password)
+            {
+                cout << "Enter the pass code for the safe" << endl;
+                cin >> userInput;
+
+            }
+
+            cout << "hello there";
+        }
+
+
+Brute-Force Attack II
+
+        #include <iostream>
+        using namespace std;
+        int main()
+        {
+            string password = "246";
+            string pass;
+            int x = 5;
+
+
+            while (x > 0)
+            {
+                cout << "\nYou can only have 5 tries and if you fail you'll get bonk." << endl;
+                cout << "Passcode: " ;
+                cin >> pass;
+                if (pass == password)
+                {
+                    cout << "\nWelcome 'Username' " << endl;
+
+                    break;
+                }
+                else
+                    x--;
+            }
+            if (x == 0)
+            {
+                cout << "\nGet ready to be bonk!" << endl;
+            }
+        }
+    
+
+Input Improvement 
+
+        #include <iostream>
+        using namespace std;
+        int main() {
+            char input;
+            do {
+                cout << "Would you like to Quit (Y/N)?" << endl;
+                cin >> input;
+            } while 
+                ((input != 'Y') && (input != 'y'));
+            return 0;
+        }
+
+
+Loopy
+
+        #include <iostream>  
+        using namespace std;
+        int main() {
+
+            int myInt = 0;
+            int counter;
+
+            cout << "Enter a number: " << endl;
+            cin >> counter;
+            do
+            {
+                cout << myInt << endl;
+                myInt++;
+
+            } while (myInt <= counter);
+
+        }
+
+
