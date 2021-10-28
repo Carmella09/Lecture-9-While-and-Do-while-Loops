@@ -164,6 +164,33 @@ Reverse 9 times table
 
 The Pointless Box
 
+        #include <iostream>
+        using namespace std;
+        int main()
+        {
+
+            cout << "Enter either 1 or 2 only: \n";
+            int number;
+            cin >> number;
+            while (number != 0 && number <= 2 && !cin.fail())
+            {
+                if (number == 1)
+                {
+                    cout << "You have enter number 1. \n";
+                }
+                else
+                {
+                    cout << " you have enter number 2. \n";
+                }
+
+                cout << " Enter either 1 or 2 \n";
+                cin >> number;
+
+            }
+
+            cout << "You did not enter the number 1 or 2.";
+
+        }
 
     
 
@@ -192,7 +219,7 @@ Brute-Force Attack
         using namespace std;
         int main()
         {
-            string password = "kenobi";
+            string password = "246";
             string userInput;
 
             while (userInput != password)
