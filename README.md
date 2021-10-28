@@ -1,9 +1,9 @@
 # Lec-9-Codes
 
-LOOP
+//LOOP
 
 
-WHILE LOOPS
+//WHILE LOOPS
 
 while loops Example
 
@@ -96,7 +96,7 @@ Remain Positive
     }
   
   
-DO WHILE LOOPS
+//DO WHILE LOOPS
   
 Login Do While Example
   
@@ -138,7 +138,7 @@ Login While Alternative
     }
 
   
-EXERCISE BREAK
+//EXERCISE BREAK
 
 Exercise: While Loop
 
@@ -211,7 +211,7 @@ Input improvement
         }
 
 
-EXERCISE BREAK 
+//EXERCISE BREAK 
 
 Brute-Force Attack
 
